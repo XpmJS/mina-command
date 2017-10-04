@@ -17,7 +17,6 @@
 <body>
 
 	<!-- 引用共用页面文件  -->
-	<!-- <include src="__WEB_ROOT__/common/nav.page"  /> -->
 
 	<div class="container">
 		又一个 MINA PAGES页面
