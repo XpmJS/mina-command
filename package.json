@@ -1,9 +1,14 @@
 {
-	"name": "mp",
-	"version": "1.0.0",
-	"description": "one mina pages theme",
-	"repository":"https://github.com/xpmjs/mina-command",
-	"dependencies": {},
-	"devDependencies": {},
-	"license": "MIT"
+  "name": "mp",
+  "bin": {
+    "mp": "mp.js"
+  },
+  "version": "9.0.1",
+  "description": "MINA Pages command line tools",
+  "repository": "https://github.com/xpmjs/mina-command",
+  "dependencies": {
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {},
+  "license": "MIT"
 }
