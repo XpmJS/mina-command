@@ -36,9 +36,8 @@ npm link
 
 ### 工具
 
-#### 新建页面
+#### 新建页面 mp web -n [some/dir/]<page>
 
-`mp web -n [some/dir/]<page>`
 
 
 ```bash
@@ -56,9 +55,8 @@ mp web -n /code/mpapps/web/hello
 
 
 
-#### 删除页面
+#### 删除页面 mp web -n [some/dir/]<page>
 
-`mp web -n [some/dir/]<page>`
 
 
 ```bash
@@ -78,9 +76,8 @@ mp web -d /code/mpapps/web/hello
 
 
 
-#### 复制页面
+#### 复制页面 mp web -c [some/dir/]<source page> [some/dir/]<dest page>
 
-`mp web -c [some/dir/]<source page> [some/dir/]<dest page>` 
 
 
 ```bash
