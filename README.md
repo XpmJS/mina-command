@@ -1,11 +1,15 @@
 MINA Pages 命令行工具
 ==============================
 
-## 安装
-本工具为 MINA Pages 应用开发工具。 MINA Pages 介绍，以及如何安装 NodeJS 请参考以下文档
+## MINA Pages 
+
+### 简介
+本工具为 MINA Pages 应用开发工具。 关于MINA Pages 以及如何安装 NodeJS 请参考以下文档
 
 [团队猫手册 > MINA Pages > 快速开发指南](http://book.tuanduimao.com/357326) 
 
+
+### 安装命令行工具
 
 #### 第一步: 下载命令行工具
 
@@ -35,6 +39,8 @@ npm link
 
 
 ## 命令
+
+### WEB 网站
 
 #### 新建页面 `mp web -n [some/dir/]<page>`
 
@@ -106,9 +112,13 @@ mp web -c /code/mpapps/web/hello /code/newapps/web/world
 
 
 
+### WXAPP 微信小程序
+
+(稍后完善)
 
 
+### APP 移动应用
 
-
+(稍后完善)
 
 
