@@ -81,7 +81,7 @@ mp web -d /code/mpapps/web/hello
 
 
 ```bash
-mp web -d hello world
+mp web -c hello world
 
 ```
 
@@ -89,7 +89,7 @@ mp web -d hello world
 
 
 ```bash
-mp web -d /code/mpapps/web/hello world
+mp web -c /code/mpapps/web/hello world
 
 ```
 
@@ -98,7 +98,7 @@ mp web -d /code/mpapps/web/hello world
 
 
 ```bash
-mp web -d /code/mpapps/web/hello /code/newapps/web/world
+mp web -c /code/mpapps/web/hello /code/newapps/web/world
 
 ```
 
