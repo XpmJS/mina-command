@@ -181,7 +181,7 @@ function WebCreate (argv) {
 			// page.json
 			let page_file = path.join(pi.pageroot, pi.basename);
 
-			let json_file = path.resolve('.','source', "page.json");
+			let json_file = path.resolve(__dirname,'source', "page.json");
 			let contentText = fs.readFileSync(json_file,'utf-8');
 			contentText = contentText.replace(/%%cname%%/gi, conf.cname);
 			contentText = contentText.replace(/%%router%%/gi, conf.router);
@@ -201,19 +201,19 @@ function WebCreate (argv) {
 			fs.writeFileSync(page_file +'.json', contentText);
 
 			// page.js
-			let src_file = path.resolve('.','source', "page.js");
+			let src_file = path.resolve(__dirname,'source', "page.js");
 			contentText = fs.readFileSync(src_file,'utf-8');
 			contentText = contentText.replace(/%%datetime%%/gi, timestamp);
 			fs.writeFileSync(page_file +'.js', contentText);
 
 			// page.page
-			src_file = path.resolve('.','source', "page.page");
+			src_file = path.resolve(__dirname,'source', "page.page");
 			contentText = fs.readFileSync(src_file,'utf-8');
 			contentText = contentText.replace(/%%datetime%%/gi, timestamp);
 			fs.writeFileSync(page_file +'.page', contentText);
 
 			// page.less
-			src_file = path.resolve('.','source', "page.less");
+			src_file = path.resolve(__dirname,'source', "page.less");
 			contentText = fs.readFileSync(src_file,'utf-8');
 			contentText = contentText.replace(/%%datetime%%/gi, timestamp);
 			fs.writeFileSync(page_file +'.less', contentText);
@@ -279,6 +279,7 @@ function WebDelete( argv ){
 
 function WebCopy(){
 	return new Promise(function(resolve, reject){
+		console.log(__dirname);
 		resolve("done");
 	});
 }
