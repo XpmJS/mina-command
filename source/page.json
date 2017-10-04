@@ -1,0 +1,18 @@
+{
+	"cname":"%%cname%%",
+	"data": {
+		"user":{
+			"api":"/mina/user/user/getUserInfo",
+			"query":{}
+		},
+		"page":{
+			"title":"%%cname%%"
+		}
+	},
+	"entries":[
+		{"method":"GET", "router":"%%router%%", "ttl":0}
+	],
+	"align": {
+		%%alias%%
+	}
+}

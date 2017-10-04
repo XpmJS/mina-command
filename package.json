@@ -7,7 +7,8 @@
   "description": "MINA Pages command line tools",
   "repository": "https://github.com/xpmjs/mina-command",
   "dependencies": {
-    "yargs": "^9.0.1"
+    "yargs": "^9.0.1",
+    "inquirer":"^3.3.0"
   },
   "devDependencies": {},
   "license": "MIT"

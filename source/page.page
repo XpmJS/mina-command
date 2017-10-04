@@ -1,0 +1,30 @@
+<html>
+<head>
+	<!-- 本页面自动生成 %%datetime%% -->
+	<!-- 参考文档 http://book.tuanduimao.com/357326 -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta name="description" content="{{page.description}}">
+	<meta name="keywords" content="{{page.keywords}}">
+	<meta name="author" content="{{page.author}}">
+	<meta name="generator" content="MINA Pages.com">
+
+	<!-- 引用 CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href="{{__STOR__::/__PROJECT_NAME/assets}}/bootstrap/bootstrap.min.css"> -->
+	<title>{{page.title}}-minapages.com</title>
+</head>
+<body>
+
+	<!-- 引用共用页面文件  -->
+	<!-- <include src="__WEB_ROOT__/common/nav.page"  /> -->
+
+	<div class="container">
+		又一个 MINA PAGES页面
+	</div>
+
+	<!-- 引用JS  -->
+	<!-- <script type="text/javascript" src="{{__STOR__::/__PROJECT_NAME/assets}}/js/jquery.validate.min.js"></script> -->
+	
+</body>
+</html>
