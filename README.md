@@ -1,7 +1,7 @@
 MINA Pages 命令行工具
 ==============================
 
-### 安装
+## 安装
 本工具为 MINA Pages 应用开发工具。 MINA Pages 介绍，以及如何安装 NodeJS 请参考以下文档
 
 [团队猫手册 > MINA Pages > 快速开发指南](http://book.tuanduimao.com/357326) 
@@ -34,7 +34,7 @@ npm link
 ```
 
 
-### 命令
+## 命令
 
 #### 新建页面 `mp web -n [some/dir/]<page>`
 
