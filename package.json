@@ -1,0 +1,9 @@
+{
+	"name": "mp",
+	"version": "1.0.0",
+	"description": "one mina pages theme",
+	"repository":"https://github.com/xpmjs/mina-command",
+	"dependencies": {},
+	"devDependencies": {},
+	"license": "MIT"
+}
