@@ -2,8 +2,10 @@ MINA Pages 命令行工具
 ==============================
 
 ### 安装
+本工具为 MINA Pages 应用开发工具。 MINA Pages 介绍，以及如何安装 NodeJS 请参考以下文档
 
-安装 NodeJS 参考文档: [团队猫手册 > MINA Pages > 快速开发指南](http://book.tuanduimao.com/357326) 
+[团队猫手册 > MINA Pages > 快速开发指南](http://book.tuanduimao.com/357326) 
+
 
 #### 第一步: 下载命令行工具
 
