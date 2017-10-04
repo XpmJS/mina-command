@@ -3,7 +3,7 @@ MINA Pages 命令行工具
 
 ### 安装
 
-安装 NodeJS
+安装 NodeJS 参考文档: [团队猫手册 > MINA Pages > 快速开发指南](http://book.tuanduimao.com/357326) 
 
 #### 第一步: 下载命令行工具
 
