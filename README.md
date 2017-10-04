@@ -34,7 +34,7 @@ npm link
 ```
 
 
-### 工具
+### 命令
 
 #### 新建页面 `mp web -n [some/dir/]<page>`
 
