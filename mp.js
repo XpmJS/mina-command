@@ -165,7 +165,7 @@ function WebCreate (argv) {
 		// 填写配置信息		
 			return prompt([
 				{type:"input",name:"cname",   message:"页面中文名称: ", default:"又一个WEB页面" },
-				{type:"input",name:"router",  message:"页面中文路由 (例: /article/{id:\\d+}): ", default:pi.pagename },
+				{type:"input",name:"router",  message:"页面中文路由 (例: /article/{id:\\\\d+}): ", default:pi.pagename },
 				{type:"input",name:"desktop", message:"兼容桌面浏览器: ", default:"yes"},
 				{type:"input",name:"mobile",  message:"兼容手机浏览器: ", default:"yes"},
 				{type:"input",name:"wechat",  message:"兼容微信浏览器: ", default:"yes"},
